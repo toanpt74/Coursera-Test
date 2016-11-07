@@ -1,0 +1,110 @@
+﻿body
+{
+    margin-top:0px; margin-left:0px; background-color:#ffffff;
+    font-family:Times New Roman;
+    font-size:14px;
+}
+.left, .right, .center
+{
+   height: 150px;
+  
+}
+.left
+{
+   
+  float: left;
+  width: 33%;
+   
+  margin:0 auto;
+ }
+ .right
+ {
+    
+    float: right;
+    width: 33%;
+    margin:0 auto;
+ }
+ .center
+ {
+    
+    float: left;
+    width: 34%;	
+    margin:0 auto;
+  } 
+         
+ @media only screen and (max-width: 767px) {
+        /* Áp dụng trên kích thước của sổ trình duyệt < 767px */
+    .left, .right,.center
+    {
+        float: none;
+        width: 100%;
+        margin:0 auto;
+        height:200px;
+    } 
+ }
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+        /* Áp dụng cho trình duyệt có chiều rông từ  768px tới 991 px */
+        .right{width:100%;margin:0 auto; height:200px;}
+	    .left,.center{width:50%;margin:0 auto; height:200px;}		
+ }
+ @media only screen and (min-width: 992px) {
+        /* Áp dụng cho trình duyệt có chiều rộng lớn hơn 992px */
+       .left{width:33%; margin:0 auto; vertical-align:middle;float:left; height:200px;    }
+       .right {width:33%; margin:0 auto;vertical-align:middle;float:right; height:200px;  }
+       .center{width:34%;margin:0 auto;vertical-align:middle; float:left;height:200px;   }	  
+ }
+ .TitleHead
+ {
+     text-align:center;
+     font-family:Times New Roman;
+     font-size:18px;
+     font-weight:bold;
+     padding:20px;
+ }
+ .BoxBorder 
+ {
+     border:2px solid black;
+     width:90%;
+     margin:0 auto;
+     height:150px;
+     background:#cccccc;
+ }
+ .menuChicken
+ {
+     background:#D59898;
+     width:150px;
+     height:35px;
+     text-align:center;
+     border-bottom:solid 2px black;
+     border-left:solid 2px black;
+     font-family:Times New Roman;
+     font-size:18px;
+     font-weight:bold;
+     
+ }
+ .menuBeef
+ {
+     background:#C14543;
+     width:150px;
+     height:35px;
+     text-align:center;
+     border-bottom:solid 2px black;
+     border-left:solid 2px black;
+     font-family:Times New Roman;
+     font-size:18px;
+     font-weight:bold;
+     
+ }
+ .menuSushi
+ {
+     background:#E5D198;
+     width:150px;
+     height:35px;
+     text-align:center;
+     border-bottom:solid 2px black;
+     border-left:solid 2px black;
+     font-family:Times New Roman;
+     font-size:18px;
+     font-weight:bold;
+     
+ }
