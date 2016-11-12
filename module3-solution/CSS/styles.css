@@ -99,4 +99,13 @@ h1
     text-align:justify;
 }
 /* END HEADER */
+.introduce
+{
+    background-color: #951C49;
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align:justify;
+}
+
 
