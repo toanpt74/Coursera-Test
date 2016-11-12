@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,8 +6,8 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css"/>
-    <link rel="stylesheet" href="CSS/styles.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'/>
     
@@ -18,7 +18,8 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.htm" >
+         
+          <a href="index.htm" class="navbar-brand" >
            <h1>Food, LLC</h1> 
           </a>
            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -28,7 +29,7 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
+       
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
@@ -52,14 +53,21 @@
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
+  <div class="text-center"><h1>Our Menu</h1></div>
 
-  <div id="main-content" class="container">
-    <div id="content" class="jumbotron">
-      (OPTIONAL, NOT GRADED) As in previous assignment, the rest of your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use the Bootstrap Grid we discussed in Lecture 26 of Module 2 as well as numerous lectures of Module 3, including Lecture 35.). Both the tablet view and the desktop view of what's graded and required is the same. Here is the mockup illustration of the desktop & tablet version of the site (only required graded parts shown)
-    </div>
+    
+    <div class="container" id='chicken'>
+      <div class="row">
+        <div class="col-md-12 col-ms-12 col-xs-12">
+            <div class="introduce">
+                <p>(OPTIONAL, NOT GRADED) As in previous assignment, the rest of your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use the Bootstrap Grid we discussed in Lecture 26 of Module 2 as well as numerous lectures of Module 3, including Lecture 35.). Both the tablet view and the desktop view of what's graded and required is the same. Here is the mockup illustration of the desktop & tablet version of the site (only required graded parts shown)</p>
+            </div>
+        </div>
+     </div>
+    </div> 
+   
 
-  </div>
-
+   
    <!-- jQuery (Bootstrap JS plugins depend on it) -->
   
   <script src="js/jquery-2.1.4.min.js"></script>
